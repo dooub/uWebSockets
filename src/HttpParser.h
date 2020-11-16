@@ -147,7 +147,7 @@ private:
     std::string fallback;
     unsigned int remainingStreamingBytes = 0;
 
-    const size_t MAX_FALLBACK_SIZE = 1024 * 16;
+    const size_t MAX_FALLBACK_SIZE = 1024 * 32;
 
     static unsigned int toUnsignedInteger(std::string_view str) {
         unsigned int unsignedIntegerValue = 0;
